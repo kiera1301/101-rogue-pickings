@@ -1,0 +1,140 @@
+/***BASE STYLES***/
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+/***GRID***/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  height: 240px;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  margin: 0 auto;
+  float: left;
+
+}
+
+/*** HEADER ***/
+
+
+header h1 {
+  text-transform: uppercase;
+  padding: 20px 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+header h1 span {
+
+  color: #a2bf98;
+}
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 32px;
+  float: right;
+
+}
+nav ul li {
+  display: inline-block;
+  padding: 7px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #a2bf98;
+}
+
+img {
+  border-top: 5px solid #a2bf98;
+  border-bottom: 5px solid #a2bf98;
+}
+
+/***MAIN***/
+
+.section-one {
+  padding: 20px 0;
+}
+
+.welcome {
+  color: #a2bf98;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.intro {
+  line-height: 21px;
+}
+
+/***MAIN SECTION 2***/
+
+.titles {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+/*Grey border*/
+.verticle-line {
+  border-right: 2px solid #eee;
+}
+
+/*Review and Adress text*/
+.info {
+  padding-left: 20px;
+}
+
+section ul li {
+  font-family: 'Montserrat', sans-serif;
+  color: #a2bf98;
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+.review {
+  padding-right: 111px;
+  line-height: 21px;
+}
+
+.address {
+  padding-right: 220px;
+  line-height: 21px;
+}
+
+/***FOOTER***/
+
+footer {
+  font-weight: bold;
+  padding-top: 3px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  clear: both;
+}
+
+footer span {
+  font-family: 'Dancing Script', cursive;
+  color: #a2bf98;
+  text-transform: lowercase;
+}
